@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(207, 186, 66, 0.736);
+ padding: 2px;
+    margin:0%;
+    margin-top: 30px;
+}
+section{
+    
+    justify-content: center ;
+    display: flex;
+    height: 87px;
+    
+}
+
+div{
+    border: 2px solid black;
+    width: 150px;
+    background-color: rgb(255, 255, 255);
+    
+}
+#odd>div:nth-child(odd){
+    background-color: rgb(0, 0, 0);
+}
+#even>div:nth-child(even){
+    background-color: black;
+}
